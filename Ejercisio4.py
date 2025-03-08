@@ -9,4 +9,4 @@ lista = [random.randint(1, 10) for _ in range(10)]
 
 resultado = [(num, num**2, num**3) for num in lista]
 
-resultado
+print(resultado)
